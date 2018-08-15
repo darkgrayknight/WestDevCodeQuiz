@@ -1,0 +1,17 @@
+Apple|Juice
+Avocado|Dip
+Barley|Cereal
+Beet|Raw
+Broccoli|Salad
+Carrot|Salad
+Grape|Ferment
+Kiwi|Raw
+Orange|Juice
+Pea|Raw
+Peppers|Salsa
+Raspberry|Jam
+Soy Bean|Tofu
+Spinach|Salad
+Strawberry|Jam
+Tomato|Salsa
+Wheat|Bread

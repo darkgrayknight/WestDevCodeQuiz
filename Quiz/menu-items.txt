@@ -1,0 +1,10 @@
+Bread*
+Cereal
+Dip
+Jam*
+Juice*
+Raw
+Salad
+Salsa*
+Tofu*
+Wine

@@ -1,0 +1,33 @@
+Students at a cooking school are presented with a list of ten possible items they will be allowed to make and asked to select five, those five will be their menu items. Then they are provided with a pipe (|) delimited list in a text file of the possible menu items along with the ingredients for them that will be provided by the school. A friend of yours is a student in the school and has asked you to create a simple C# program to display the list of provided ingredients for their five menu items sorted by the menu item and the ingredient. Once they see the list of what will be provided, they can go buy the other ingredients so they can make the menu items and pass the class.
+
+This is the list of menu items that can be made in the class. Your friend has selected the items with a * after the name.
+Bread*
+Cereal
+Dip
+Jam*
+Juice*
+Raw
+Salad
+Salsa*
+Tofu*
+Wine
+
+
+And here is the pipe delimited list of ingredients in the text file.
+Apple|Juice
+Avocado|Dip
+Barley|Cereal
+Beet|Raw
+Broccoli|Salad
+Carrot|Salad
+Grape|Ferment
+Kiwi|Raw
+Orange|Juice
+Pea|Raw
+Peppers|Salsa
+Raspberry|Jam
+Soy Bean|Tofu
+Spinach|Salad
+Strawberry|Jam
+Tomato|Salsa
+Wheat|Bread
