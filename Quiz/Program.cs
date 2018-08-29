@@ -13,17 +13,9 @@ namespace Quiz
 			var menuItems = File.ReadAllLines("menu-items.txt");
 			var ingredientItems = File.ReadAllLines("ingredient-items.txt");
 
-			//Console.WriteLine("\nMenu:");
 			foreach (var item in menuItems) {
 				menu.Add(item);
-				//Console.Write("\t");
-				//Console.Write(item);
-				if (menu.Exists(m => item.Contains(m.Item) && m.Selected)) {
-					//Console.Write("\tSelected");
-				}
-				//Console.WriteLine();
 			}
-			//Console.WriteLine("\nIngredients");
 			foreach (var item in ingredientItems) {
 				var ingredientItem = GetIngredientMenuItem(item);
 				if (menu.Exists(m => m.Item == ingredientItem.Item2)) {
@@ -31,14 +23,8 @@ namespace Quiz
 					if (menuItem.Ingredients == null)
 						menuItem.Ingredients = new List<string>();
 					menuItem.Ingredients.Add(ingredientItem.Item1);
-					//Console.Write($"\t{menuItem.Item}:\t{(menuItem.Selected ? '*' : ' ')}");
 				}
-				//Console.Write("\t");
-				//Console.Write(ingredientItem.Item1);
-				//Console.Write($"\t{ingredientItem.Item2}");
-				//Console.WriteLine();
 			}
-			//Console.WriteLine();
 			Console.Write(menu.Display());
 			Console.ReadLine();
 		}
@@ -102,5 +88,4 @@ namespace Quiz
 			return display.ToString();
 		}
 	}
-
 }
